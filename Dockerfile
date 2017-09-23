@@ -1,5 +1,5 @@
-# freecad and cadquery server
-FROM jupyter/tensorflow-notebook
+# freecad anjupyterd cadquery server
+FROM xblaster/tensorflow-jupyter
 MAINTAINER Deepak Ramaswamy <deepak_ramas@hotmail.com>
 RUN pip install elasticsearch pillow 
 #requests imagehash
