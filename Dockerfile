@@ -1,7 +1,8 @@
 # freecad anjupyterd cadquery server
 FROM xblaster/tensorflow-jupyter
 MAINTAINER Deepak Ramaswamy <deepak_ramas@hotmail.com>
-RUN apt-get update && apt-get install -y pip
+RUN apt-get update && apt-get install -y python-pip
+RUN apt-get upgrade
 RUN pip install elasticsearch pillow 
 #requests imagehash
 #selenium
